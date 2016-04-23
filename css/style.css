@@ -1,0 +1,61 @@
+.container{
+	position: relative;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	background-color: #FFF;
+}
+
+.navmenu{
+	display: block;
+	width: 100%;
+	background-color: #0E4256;
+}
+.navmenu li{
+	float: left;
+	display: block;
+	position: relative;
+}
+.navmenu li a{
+	display: block;
+	padding: 30px 15px;
+	color: white;
+	text-transform: uppercase;
+	font-size: 1em;
+
+	transition: 200ms all linear;
+	-moz-transition: 200ms all linear;
+	-webkit-transition: 200ms all linear;
+}
+.navmenu li:first-child:hover a{
+	border-radius: 3px 0px 0px 3px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	-moz-border-radius: 3px 0px 0px 3px;
+	-ms-border-radius: 3px 0px 0px 3px;
+	-khtml-border-radius: 3px 0px 0px 3px;
+}
+.navmenu li:hover a{
+	background-color: #FDC038;
+	transition: 200ms all linear;
+	-moz-transition: 200ms all linear;
+	-webkit-transition: 200ms all linear;
+}
+
+.navmenu li .no-hover{
+	padding: 34px 5px;
+		font-size: 0.6em;
+}
+.navmenu li:hover .no-hover{
+	background: none !important;
+}
+.navmenu li:hover .fb{
+	background: #215F9E;
+}
+.navmenu li:hover .yt{
+	background: #D42E2E;
+}
+.navmenu li:hover .tt{
+	background: #41B4F7;
+	border-radius: 0px 3px 3px 0px;
+}
