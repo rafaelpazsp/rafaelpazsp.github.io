@@ -1,12 +1,4 @@
-.container{
-	position: relative;
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 30px;
-	background-color: #FFF;
-}
-
+/* NAVMENU */
 .navmenu{
 	display: block;
 	width: 100%;
@@ -58,4 +50,72 @@
 .navmenu li:hover .tt{
 	background: #41B4F7;
 	border-radius: 0px 3px 3px 0px;
+}
+
+/* POSTS */
+.posts{
+	float: left;
+	width: 100%;
+	margin-top: 40px;
+	display: block;
+}
+
+.posts .lia{
+	float: left;
+
+	position: relative;
+	width: 100%;
+	margin: 30px 0;
+}
+
+.posts .lia h2{
+	display: block;
+	text-align: center;
+	padding: 0 0 30px 0;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: 900;
+	border-bottom: 1px solid #ddd;
+	color: #777;
+}
+
+.posts .thumb{
+	float: left;
+	width: 100%;
+}
+.posts .thumb img{
+	width: 100%;
+	opacity: .8;
+}
+.posts .thumb:hover img{
+	opacity: 10;
+}
+
+
+.posts .description{
+	position: absolute;
+	left: 0;
+	bottom: 4px;
+	padding: 30px;
+	background: #FDC038;
+}
+.posts .description .url{
+	display: block;
+	font-size: 1.4em;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.load_more{
+	display: block;
+	clear: both;
+	text-align: center;
+	width: 300px;
+	margin: auto;
+	padding:15px 30px;
+	background: #ddd;
+	border: 1px solid #ccc;
+	color: #888;
+	text-transform: uppercase;
 }

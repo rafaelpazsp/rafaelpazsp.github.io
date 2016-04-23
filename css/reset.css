@@ -8,3 +8,12 @@ body{ background-color: #f4f4f4; font-family: "Roboto", Arial, Helvetica, Sans-s
 .to-left{ float: left; }
 .to-right{ float: right; }
 .radius{ border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; -o-border-radius: 3px; -ms-border-radius: 3px; -khtml-border-radius: 3px; }
+.radius-30{ border-radius: 30px; }
+.container{
+	position: relative;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	background-color: #FFF;
+}
